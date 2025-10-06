@@ -70,24 +70,6 @@ The project features multiple visualizations to support data-driven insights:
 
 ---
 
-## 📂 Project Structure
-
-```
-movie-ratings-analysis/
-├── data/
-│   └── movie_ratings.csv          # Raw dataset
-├── notebooks/
-│   └── analysis.ipynb             # Main analysis notebook
-├── visualizations/
-│   ├── rating_distribution.png
-│   ├── genre_comparison.png
-│   └── runtime_analysis.png
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
