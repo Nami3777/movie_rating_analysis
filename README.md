@@ -1,25 +1,126 @@
-Movie Ratings Analysis
+# 🎬 Movie Ratings Analysis
 
-Project Overview
+A comprehensive data analysis project exploring the relationship between critic and audience movie ratings, uncovering trends in genre preferences, runtime impacts, and rating distributions.
 
-This project involves analyzing a dataset of movie ratings to uncover insights about how movies are rated by critics and audiences. The dataset includes information such as movie titles, genres, critic ratings (tomatometer), audience ratings, and more. The analysis aims to answer specific questions and provide visualizations to better understand movie rating trends.
+---
 
-Visualizations
+## 📊 Project Overview
 
-The project includes various visualizations to support the analysis:
+This project analyzes a movie ratings dataset to reveal insights about how films are perceived by critics versus audiences. By examining tomatometer scores, audience ratings, genres, and runtime data, the analysis identifies patterns and trends in movie reception across different dimensions.
 
-Distribution of movie ratings
+**Key Questions Explored:**
+- How do critic ratings compare to audience ratings?
+- Which genres receive the highest ratings from critics vs. audiences?
+- Does movie runtime correlate with rating scores?
+- What are the trends in movie releases over time?
 
-Genres distribution
+---
 
-Scatter plots of tomatometer rating vs. audience rating
+## 🔍 Dataset
 
-Runtime distribution
+The dataset includes:
+- **Movie titles** and release years
+- **Genres** (Action, Drama, Comedy, etc.)
+- **Tomatometer rating** (critic scores)
+- **Audience rating** (user scores)
+- **Runtime** (movie duration in minutes)
+- Additional metadata
 
-Scatter plots of runtime vs. tomatometer rating and runtime vs. audience rating
+---
 
-Line plot of movie release trends
+## 📈 Visualizations
 
-Bar charts of average ratings by genre
+The project features multiple visualizations to support data-driven insights:
 
-Combined bar chart comparing critic and audience ratings by genre
+### Rating Analysis
+- Distribution of critic ratings (tomatometer)
+- Distribution of audience ratings
+- Scatter plot: Tomatometer vs. Audience Rating
+
+### Genre Analysis
+- Genre distribution across the dataset
+- Average ratings by genre (critics and audience)
+- Combined bar chart: Critic vs. Audience ratings by genre
+
+### Runtime Analysis
+- Runtime distribution histogram
+- Scatter plot: Runtime vs. Tomatometer Rating
+- Scatter plot: Runtime vs. Audience Rating
+
+### Temporal Trends
+- Line plot: Movie release trends over time
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="left">
+<img src="https://cdn.simpleicons.org/python/3776AB" width="50" height="50" alt="Python"/>
+<img src="https://cdn.simpleicons.org/pandas/150458" width="50" height="50" alt="Pandas"/>
+<img src="https://cdn.simpleicons.org/numpy/013243" width="50" height="50" alt="NumPy"/>
+<img src="https://cdn.simpleicons.org/plotly/3F4F75" width="50" height="50" alt="Plotly"/>
+<img src="https://cdn.simpleicons.org/jupyter/F37626" width="50" height="50" alt="Jupyter"/>
+</p>
+
+- **Python** - Core programming language
+- **Pandas** - Data manipulation and analysis
+- **NumPy** - Numerical computations
+- **Matplotlib / Seaborn / Plotly** - Data visualization
+- **Jupyter Notebook** - Interactive development environment
+
+---
+
+## 📂 Project Structure
+
+```
+movie-ratings-analysis/
+├── data/
+│   └── movie_ratings.csv          # Raw dataset
+├── notebooks/
+│   └── analysis.ipynb             # Main analysis notebook
+├── visualizations/
+│   ├── rating_distribution.png
+│   ├── genre_comparison.png
+│   └── runtime_analysis.png
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.8+
+- pip or conda
+
+---
+
+## 📊 Key Findings
+
+*This section will be populated with insights from the analysis, such as:*
+- Critic vs. audience rating correlations
+- Top-rated genres by each group
+- Impact of runtime on ratings
+- Notable trends in movie releases
+
+---
+
+## 🔮 Future Enhancements
+- Add sentiment analysis on movie reviews
+- Incorporate box office revenue data
+- Build interactive dashboard with Plotly Dash or Streamlit
+- Perform time-series forecasting on rating trends
+- Add machine learning model to predict ratings
+
+---
+
+## 📧 Contact
+
+namyun.kim@ue-germany.de
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
